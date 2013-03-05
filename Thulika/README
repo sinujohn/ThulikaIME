@@ -1,0 +1,11 @@
+Thulika is a simple handwriting recognition keyboard. It detects a single letter provided to it. Supports ENGLISH(beta version) and MALAYALAM languages.
+Thulika is the first Android app that has brought handwriting recognition to an Indian language(Malayalam). 
+Now you can use this keyboard even if the native OS doesn't support Malayalam.
+Thulika has got a new look and feel which is drastically different from other keyboard apps. You can now use your entire screen to write! It is also semi-transparent, which gives you a glass like surface to write. The few blocks on the keyboard screen can also be moved, that is, the entire screen is configurable!
+Write one letter at a time, and it'll recognize the letter.
+
+Find this in Play Store : https://play.google.com/store/apps/details?id=me.sinu.thulika
+
+Encog library : https://github.com/encog
+
+Developer : Sinu John
