@@ -1,3 +1,8 @@
+/*
+ * Developer : Sinu John
+ * www.sinujohn.wordpress.com
+ */
+
 package me.sinu.keycog.trainer;
 
 import java.io.File;

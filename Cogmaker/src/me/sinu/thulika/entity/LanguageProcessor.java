@@ -1,3 +1,8 @@
+/*
+ * Developer : Sinu John
+ * www.sinujohn.wordpress.com
+ */
+
 package me.sinu.thulika.entity;
 
 public interface LanguageProcessor {

@@ -1,3 +1,8 @@
+/*
+ * Developer : Sinu John
+ * www.sinujohn.wordpress.com
+ */
+
 package me.sinu.keycog.ocr;
 
 import me.sinu.thulika.entity.ImageData;
