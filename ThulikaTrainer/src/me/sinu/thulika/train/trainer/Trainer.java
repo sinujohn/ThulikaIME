@@ -1,3 +1,8 @@
+/*
+ * Author : Sinu John
+ * www.sinujohn.wordpress.com
+ */
+
 package me.sinu.thulika.train.trainer;
 
 import java.io.File;
