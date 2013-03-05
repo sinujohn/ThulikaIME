@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/load" 
+          android:title="Load Letters"/>
+    <!-- <item android:id="@+id/train"
+          android:title="Train" />
+    <item android:id="@+id/save" 
+          android:title="Save Engine"/>
+    <item android:id="@+id/send"
+          android:title="Send!" />
+     -->
+ </menu>

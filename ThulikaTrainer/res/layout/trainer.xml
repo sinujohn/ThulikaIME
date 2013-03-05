@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <me.sinu.thulika.train.trainer.Trainer
+        android:id="@+id/trainer1"
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_weight="0.48" />
+    
+    <LinearLayout
+            android:id="@+id/ssPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <LinearLayout
+	            android:id="@+id/sPanel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+            </LinearLayout>
+            <TextView 
+                android:id="@+id/stackLabel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="STACK"
+	            android:gravity="right" />
+    </LinearLayout>
+    
+    <LinearLayout
+            android:id="@+id/cPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        <Button
+            android:id="@+id/recognizeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recognize" />   
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear" /> 
+        <Button
+            android:id="@+id/delLastButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Last" />
+        <EditText
+            android:id="@+id/inputBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" android:maxLines="1">
+
+            <requestFocus />
+        </EditText>
+    
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/letterPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <!--
+            <EditText
+                android:id="@+id/inputText"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+            
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add" />
+
+            <Button
+                android:id="@+id/trainButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Train" />
+
+            <Button
+                android:id="@+id/recognizeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recognize" />
+            -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

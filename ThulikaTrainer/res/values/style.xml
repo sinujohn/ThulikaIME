@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="custom_theme_color">#77A9ACB6</color>
+    <style name="TransTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+		<item name="android:windowBackground">@color/custom_theme_color</item>
+		<!-- <item name="android:windowBackground">@drawable/rectbg</item> -->
+		<item name="android:colorBackground">@color/custom_theme_color</item>
+	</style>    
+</resources>
