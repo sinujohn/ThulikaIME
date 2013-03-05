@@ -1,0 +1,10 @@
+The Thulika IME is an handwriting recognition app for Android OS.
+It consists of 3 softwares: Thulika, ThulikaTrainer and Cogmaker.
+Find the app in Play Store : https://play.google.com/store/apps/details?id=me.sinu.thulika
+More details: http://sinujohn.wordpress.com/2013/01/21/thulika-keyboard/
+
+Encog library can be found here : https://github.com/encog
+The library version used is encog-core-3.1.0
+
+Developer : Sinu John
+http://sinujohn.wordpress.com/
