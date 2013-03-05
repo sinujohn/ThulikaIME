@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Touch Delay" android:gravity="center_vertical"/>
+
+        <SeekBar
+            android:id="@+id/delaySeeker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="12"
+            android:progress="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/delayView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="right"/>
+
+    <TextView
+        android:id="@+id/helpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:drawableTop="@drawable/horizontal_line" android:gravity="center_vertical" android:height="50dp"/>
+    <TextView
+        android:id="@+id/feedbackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Give Feedback"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:drawableTop="@drawable/horizontal_line" android:drawableBottom="@drawable/horizontal_line" android:gravity="center_vertical" android:height="50dp"/>
+
+</LinearLayout>

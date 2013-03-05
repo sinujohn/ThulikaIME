@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ThulikaActivity!</string>
+    <string name="app_name">Thulika</string>
+    <string name="ime_name">Thulika</string>
+	<string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_GB">English (GB)</string>
+</resources>

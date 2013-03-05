@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <me.sinu.thulika.view.TransparentPanel xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" > -->
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48" >
+
+        <me.sinu.thulika.ocr.Ocr
+            android:id="@+id/writePad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/custom_theme_color" />
+        
+        <!-- <me.sinu.thulika.ocr.Ocr
+            android:id="@+id/numPad"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom|right"
+            android:background="@color/stack_bg" /> -->
+
+        <LinearLayout
+	            android:id="@+id/menuView"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" 
+	            android:layout_gravity="bottom" 
+	            style="@style/menuText" >
+	            <!-- <TextView
+	                android:id="@+id/temp"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:text="Sample vedikettu"
+	                android:layout_weight="0" android:alpha="0.8" android:minWidth="80dip" style="@style/buttonText"/>
+	            <TextView
+	                android:id="@+id/temp1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:text="Maalappadakam"
+	                android:layout_weight="0" android:alpha="0.8" android:minWidth="80dip" style="@style/buttonText"/> -->
+	    </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/controlsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="bottom" style="@style/buttonText">
+            
+            <TextView
+                android:id="@+id/showMenuButton"
+                android:layout_width="wrap_content" 
+                android:layout_height="match_parent"
+                android:background="@drawable/grid_icon" 
+                android:layout_weight="2" android:alpha="0.8"/>
+            <TextView
+                android:id="@+id/dotButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/dot_icon"
+                android:layout_weight="2" android:alpha="0.8"/>
+            <TextView
+                android:id="@+id/spaceButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/space_icon"
+                android:layout_weight="7" android:alpha="0.8"/>
+            <TextView
+                android:id="@+id/enterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/return_icon"
+                android:layout_weight="2" android:alpha="0.8"/>
+            <TextView
+                android:id="@+id/backspButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/backspace_icon"
+                android:layout_weight="2" android:alpha="0.8"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/movableView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/sliceView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                style="@style/sliceText" android:maxLines="1"/>
+            
+            <LinearLayout
+	            android:id="@+id/suggestStackViewGroup"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" >
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="match_parent"
+	            	android:layout_height="match_parent" 
+                    android:layout_weight="10" android:background="@color/suggest_bg" android:scrollbars="none">
+
+                    <LinearLayout
+	            android:id="@+id/suggestionsViewGroup"    
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent" 
+	            
+	            android:gravity="center_vertical">
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            
+            <TextView
+                android:id="@+id/stackView"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0" android:alpha="0.8" android:minWidth="80dip" style="@style/stackText"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+    </FrameLayout>
+
+  <!--   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/spaceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="space" />
+
+        <Button
+            android:id="@+id/preButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pre" />
+
+    </LinearLayout>
+
+ -->    
+    
+
+<!-- </LinearLayout> -->
+<!-- </me.sinu.thulika.view.TransparentPanel> -->

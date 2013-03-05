@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="custom_theme_color">#77A9ACB6</color>
+    <color name="stack_bg">#FF236B8E</color>
+    <color name="slice_bg">#FF707070</color>
+    <color name="menu_bg">#FF707070</color>
+    <!-- <color name="stack_text">#FF0198E1</color> -->
+    <color name="suggest_bg">#FF414F12</color>
+    <color name="button_bg">#99707070</color>
+    <!-- <color name="suggest_text">#FF0198E1</color> -->
+    
+    <style name="suggestText" parent="@android:style/TextAppearance.Large">
+        <item name="android:textStyle">bold</item>
+        <!-- <item name="android:textColor">#0198E1</item> -->
+        <item name="android:textColor">@color/button_colors</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/stack_bg</item>
+    </style>
+    
+    <style name="stackText" parent="@android:style/TextAppearance.Large">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFCC11</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/stack_bg</item>
+    </style>
+    
+    <style name="sliceText" parent="@android:style/TextAppearance.Large">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@color/slice_bg</item>
+    </style>
+    
+    <style name="menuText" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@color/menu_bg</item>
+    </style>
+    
+    <style name="buttonText"><!--  parent="@android:style/TextAppearance.Large"> -->
+        <!-- <item name="android:textStyle">bold</item> -->
+        <!-- <item name="android:textColor">#0198E1</item> -->
+        <!-- <item name="android:textColor">@color/button_colors</item> -->
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/button_bg</item>
+    </style>
+    
+    <style name="TransTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+		<item name="android:windowBackground">@color/custom_theme_color</item>
+		<!-- <item name="android:windowBackground">@drawable/rectbg</item> -->
+		<item name="android:colorBackground">@color/custom_theme_color</item>
+	</style>    
+</resources>
